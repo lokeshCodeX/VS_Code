@@ -66,7 +66,7 @@ merge(arr, i, n);
 
 int main(){
 
-vector<int>arr({3,5,2,4,1});
+vector<int>arr({3,5,2,4,1,-1,0,-11});
 int n = arr.size();
 
 mergeSort(arr, 0, n-1);
